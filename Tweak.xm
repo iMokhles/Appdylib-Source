@@ -153,3 +153,7 @@ void H11WDLR844() {
 }
 %end
 %end
+
+%ctor {
+    %init(NSBundleHooks);
+}
