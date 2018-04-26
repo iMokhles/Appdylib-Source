@@ -50,10 +50,9 @@ void H11WDLR844() {
     if ([currentBundle containsString:@"othman.store.snapchat"]) {
         NSArray *arrayWithTwoStrings = [currentBundle componentsSeparatedByString:@"othman.store.snapchat"];
         NSString *subBun = arrayWithTwoStrings[1];
-        NSString *subBun2 = [subBun substringFromIndex:11];
-        NSUInteger bundleIdLength = [subBun2 length];
-        NSString *subBundleId = [subBun2 substringToIndex:bundleIdLength-1];
-        NSString *subBundleId2 = [subBun2 substringToIndex:bundleIdLength-2];
+        NSUInteger bundleIdLength = [subBun length];
+        NSString *subBundleId = [subBun substringToIndex:bundleIdLength-1];
+        NSString *subBundleId2 = [subBun substringToIndex:bundleIdLength-2];
         
         BOOL isMyBundle = YES;
         if (![subBundleId containsString:@"com.toyopagroup.picaboo"]) {
@@ -77,7 +76,7 @@ void H11WDLR844() {
     if ([currentBundle containsString:@"othman.store.snapchat"]) {
         NSArray *arrayWithTwoStrings = [currentBundle componentsSeparatedByString:@"othman.store.snapchat"];
         NSString *subBun = arrayWithTwoStrings[1];
-        NSString *subBun2 = [subBun substringFromIndex:11];
+        NSString *subBun2 = subBun;
         NSUInteger bundleIdLength = [subBun2 length];
         NSString *subBundleId = [subBun2 substringToIndex:bundleIdLength-1];
         NSString *subBundleId2 = [subBun2 substringToIndex:bundleIdLength-2];
@@ -107,7 +106,7 @@ void H11WDLR844() {
     if ([currentBundle containsString:@"othman.store.snapchat"]) {
         NSArray *arrayWithTwoStrings = [currentBundle componentsSeparatedByString:@"othman.store.snapchat"];
         NSString *subBun = arrayWithTwoStrings[1];
-        NSString *subBun2 = [subBun substringFromIndex:11];
+        NSString *subBun2 = subBun;
         NSUInteger bundleIdLength = [subBun2 length];
         NSString *subBundleId = [subBun2 substringToIndex:bundleIdLength-2];
         NSString *subBundleId2 = [subBun2 substringToIndex:bundleIdLength-3];
@@ -134,7 +133,7 @@ void H11WDLR844() {
     if ([currentBundle containsString:@"othman.store.snapchat"]) {
         NSArray *arrayWithTwoStrings = [currentBundle componentsSeparatedByString:@"othman.store.snapchat"];
         NSString *subBun = arrayWithTwoStrings[1];
-        NSString *subBun2 = [subBun substringFromIndex:11];
+        NSString *subBun2 = subBun;
         NSUInteger bundleIdLength = [subBun2 length];
         NSString *subBundleId = [subBun2 substringToIndex:bundleIdLength-2];
         NSString *subBundleId2 = [subBun2 substringToIndex:bundleIdLength-3];
